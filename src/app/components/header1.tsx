@@ -1,4 +1,5 @@
 import { Roboto_Flex } from "next/font/google";
+import { Button } from "@/components/ui/button";
 import React from "react";
 
 interface HeaderProps {
@@ -16,14 +17,19 @@ const headerStyle = {
   border: "1px solid",
 };
 
+// TODO: style contact div and add it to the header
+// TODO: INSTALL SHADCN
+
+const contactStyle = {};
+
 export function Header(props: HeaderProps) {
   return (
     <header>
       <div className="div" style={headerStyle}>
-        <button className="home">Início</button>
-        <button className="about">Quem somos nós ?</button>
-        <button className="contact">Contato</button>
-        <button className="projects">Projetos</button>
+        <Button className="home">Início</Button>
+        <Button className="about">Quem somos nós ?</Button>
+        <Button className="contact">Contato</Button>
+        <Button className="projects">Projetos</Button>
       </div>
     </header>
   );
