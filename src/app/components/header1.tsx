@@ -1,9 +1,4 @@
-import { Roboto_Flex } from "next/font/google";
-import { Button } from "@/components/ui/button";
-import logo from "../images/logo.png";
 import React from "react";
-import { Badge } from "@/components/ui/badge";
-import { SizeIcon } from "@radix-ui/react-icons";
 
 interface HeaderProps {
   title: string;
@@ -54,7 +49,7 @@ const stats = [
 
 export function Header(props: HeaderProps) {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 opacity: 0;">
       <img
         src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=3258&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt=""
