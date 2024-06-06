@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Header } from "./components/header1";
 import { Inter } from "next/font/google";
+import { Carousel } from "./components/carousel";
 import Hero from "./components/hero";
 import "./globals.css";
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header></Header>
         <Hero></Hero>
+        <Carousel></Carousel>
         {children}
       </body>
     </html>

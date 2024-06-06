@@ -2,6 +2,7 @@ import {
   CurrencyDollarIcon,
   CogIcon,
   ShieldCheckIcon,
+  PhoneArrowUpRightIcon,
 } from "@heroicons/react/20/solid";
 
 const features = [
@@ -27,8 +28,8 @@ const features = [
 export default function Hero() {
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-32">
-      <div className="text-2xl mx-auto my-5 mx space-x-7 max-w-2xl px-20 lg:px-50 font-extrabold text-orange-200 justify-between border-none">
-        <button>SOLICITE UM ORÇAMENTO GRÁTIS</button>
+      <div className="text-2xl mx-auto my-5 mx space-x-7 max-w-2xl px-20 lg:px-50 font-extrabold text-orange-300 justify-between border-none">
+        <button>Clique aqui e solicite um orçamento grátis.</button>
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">

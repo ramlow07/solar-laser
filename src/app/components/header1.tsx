@@ -4,17 +4,6 @@ interface HeaderProps {
   title: string;
 }
 
-const headerStyle = {
-  backgroundColor: "orange",
-  display: "flex",
-  flex: "auto",
-  gap: "1px",
-  padding: "5px",
-  margin: "5px",
-  justifyContent: "space-around",
-  border: "1px solid",
-};
-
 // TODO: style contact div and add it to the header
 
 const contactStyle = {
@@ -84,7 +73,7 @@ export function Header(props: HeaderProps) {
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
             Deixe o sol pagar a sua fatura
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-100">
+          <p className="mt-6 text-lg leading-8 font-semibold text-gray-100">
             Uma empresa com mais de 6 anos de mercado. Oferecemos 25 anos de
             garantia na sua obra, e parcelamento facilitado através de cartão de
             crédito ou financiamento.
