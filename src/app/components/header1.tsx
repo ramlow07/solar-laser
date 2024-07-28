@@ -24,9 +24,10 @@ const badgeStyle = {
 
 const links = [
   { name: "Projetos", href: "#" },
-  { name: "Faça o seu orçamento", href: "#" },
-  { name: "Our values", href: "#" },
-  { name: "Meet our leadership", href: "#" },
+  {
+    name: "Faça o seu orçamento",
+    href: "https://api.whatsapp.com/send/?phone=5548996954614&text=Ol%C3%A1+gostaria+de+um+or%C3%A7amento&type=phone_number&app_absent=0",
+  },
 ];
 const stats = [
   { name: "De economia na sua conta de luz", value: "Até 95%" },
@@ -38,11 +39,11 @@ const stats = [
 
 export function Header(props: HeaderProps) {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 opacity: 0;">
+    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <img
         src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=3258&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt=""
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+        className="opacity-70 absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       />
       <div
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -70,7 +71,7 @@ export function Header(props: HeaderProps) {
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+          <h2 className="text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
             Deixe o sol pagar a sua fatura
           </h2>
           <p className="mt-6 text-lg leading-8 font-semibold text-gray-100">
