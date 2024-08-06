@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="bg-blue-900">
+    <div className="bg-orange-500">
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid row-gap-10 mb-8 lg:grid-cols-2">
           <div className="align-middle grid grid-cols-2 gap-2 row-gap-8 lg:col-span-2 md:grid-cols-2">
@@ -33,19 +33,19 @@ export const Footer = () => {
               <a href="https://api.whatsapp.com/send/?phone=5548996954614&text=Ol%C3%A1+gostaria+de+um+or%C3%A7amento&type=phone_number&app_absent=0">
                 <button
                   type="button"
-                  class="text-white bg-orange-500 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                  class="text-white bg-blue-800 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                 >
                   Realize aqui seu orçamento.
                 </button>
               </a>
             </form>
-            <p className="mt-4 text-sm text-gray-500">
+            <p className="mt-4 text-sm text-blue-800">
               Clique no botão acima para realizar um orçamento.
             </p>
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-blue-800">
             © Copyright 2024 Solar Laser. Todos os direitos reservados.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
