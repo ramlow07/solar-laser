@@ -19,10 +19,10 @@ export function FeedbackCarousel() {
       >
         <div className="embla__container flex h-full">
           <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
-            <img src="santanderLogo.png" alt="slide2" />
+            <img src="santanderLogo1.png" alt="slide2" />
           </div>
           <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
-            <img src="sicoobLogo.png" alt="slide3" />
+            <img src="sicoobLogo1.png" alt="slide3" />
           </div>
           <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
             <img src="sicrediLogo.png" alt="slide4" />

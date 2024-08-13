@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "./components/header1";
 import { Inter } from "next/font/google";
 import { Carousel } from "./components/carousel";
+import FeedbackSection from "./components/feedbackSection";
 import { VideoSection } from "./components/videoBg";
 import Hero from "./components/hero";
 import "./globals.css";
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header></Header>
         <Hero></Hero>
+        <FeedbackSection></FeedbackSection>
         <Carousel></Carousel>
         <FloatingWhatsapp></FloatingWhatsapp>
         <FeedbackCarousel></FeedbackCarousel>
