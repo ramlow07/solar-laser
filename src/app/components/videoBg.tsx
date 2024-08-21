@@ -2,11 +2,19 @@ import React from "react";
 
 export function VideoSection() {
   return (
-    <video className="h-full w-full rounded-lg" controls autoPlay muted>
-      <source
-        src="https://www.youtube.com/watch?v=9c1kPE77AQw"
-        type="video/mp4"
-      />
-    </video>
+    <div className="video-background">
+      <iframe
+        className="video-iframe w-full h-full"
+        src="https://www.youtube.com/embed/9c1kPE77AQw?autoplay=1&mute=1&loop=1"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+        title="Background Video"
+      ></iframe>
+      <div className="content">
+        {/* Your content here, e.g., headings, buttons, etc. */}
+        <h1>Welcome to Our Site</h1>
+        <p>This is a video background example.</p>
+      </div>
+    </div>
   );
 }

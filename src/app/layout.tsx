@@ -32,6 +32,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header></Header>
         <Hero></Hero>
+        <VideoSection></VideoSection>
         <FeedbackSection slides={SLIDES} options={OPTIONS}></FeedbackSection>
         <Carousel></Carousel>
         <FloatingWhatsapp></FloatingWhatsapp>
