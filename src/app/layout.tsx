@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { Header } from "./components/header1";
 import { Inter } from "next/font/google";
 import { Carousel } from "./components/carousel";
-import FeedbackSection from "./components/feedbackSection";
+import FeedbackSection from "../components/ui/feedbackSection";
 import { VideoSection } from "./components/videoBg";
 import Hero from "./components/hero";
 import "./globals.css";
 import { Footer } from "./components/footer";
 import { FeedbackCarousel } from "./components/feedbackCarousel";
 import { FloatingWhatsapp } from "./components/floatingWhatsapp";
+import { EmblaOptionsType } from "embla-carousel";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,13 +23,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // TODO: CREATE ABOUT SECTION
+  const OPTIONS: EmblaOptionsType = {};
+  const SLIDE_COUNT = 6;
+  const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
+
   return (
     <html lang="pt-br">
       <body className={inter.className}>
         <Header></Header>
         <Hero></Hero>
-        <FeedbackSection></FeedbackSection>
+        <FeedbackSection slides={SLIDES} options={OPTIONS}></FeedbackSection>
         <Carousel></Carousel>
         <FloatingWhatsapp></FloatingWhatsapp>
         <FeedbackCarousel></FeedbackCarousel>

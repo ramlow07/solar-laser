@@ -7,7 +7,6 @@ export function FeedbackCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
 
   return (
-    // TODO: add bv logo inside the slider
     <div className="">
       <h1 className="font-sans flex items-center justify-center mb-4 text-xl font-normal bg-white leading-none tracking-tight text-gray-900 md:text-3xl lg:text-3xl dark:text-white">
         E trabalhamos também com as maiores financeiras do Brasil.
