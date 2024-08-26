@@ -12,8 +12,7 @@ export function VideoSection() {
       ></iframe>
       <div className="content">
         {/* Your content here, e.g., headings, buttons, etc. */}
-        <h1>Welcome to Our Site</h1>
-        <p>This is a video background example.</p>
+        <h1>Seja bem vindo a SOLAR LASER.</h1>
       </div>
     </div>
   );

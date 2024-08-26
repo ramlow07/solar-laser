@@ -23,7 +23,7 @@ const FeedbackSection: React.FC<PropType> = (props) => {
 
   // Initialize EmblaCarousel with autoplay plugin
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
-    Autoplay({ delay: 3000 }), // Auto slide every 3 seconds
+    Autoplay({ delay: 2000 }), // Auto slide every 3 seconds
   ]);
 
   const {

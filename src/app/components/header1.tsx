@@ -23,7 +23,7 @@ const badgeStyle = {
 };
 
 const links = [
-  { name: "Projetos", href: "#" },
+  /*{ name: "Projetos", href: "#" },*/
   {
     name: "Faça o seu orçamento",
     href: "https://api.whatsapp.com/send/?phone=5548996954614&text=Ol%C3%A1+gostaria+de+um+or%C3%A7amento&type=phone_number&app_absent=0",

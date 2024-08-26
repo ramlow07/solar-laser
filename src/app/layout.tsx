@@ -31,9 +31,11 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={inter.className}>
         <Header></Header>
+        <VideoSection></VideoSection>
         <Hero></Hero>
         <VideoSection></VideoSection>
         <FeedbackSection slides={SLIDES} options={OPTIONS}></FeedbackSection>
+
         <Carousel></Carousel>
         <FloatingWhatsapp></FloatingWhatsapp>
         <FeedbackCarousel></FeedbackCarousel>
