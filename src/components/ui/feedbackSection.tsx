@@ -3,6 +3,7 @@ import React from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
+import ClassNames from "embla-carousel-class-names";
 import {
   PrevButton,
   NextButton,
@@ -23,6 +24,7 @@ const FeedbackSection: React.FC<PropType> = (props) => {
 
   // Initialize EmblaCarousel with autoplay plugin
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
+    ClassNames(),
     Autoplay({ delay: 2000 }), // Auto slide every 3 seconds
   ]);
 
@@ -41,12 +43,12 @@ const FeedbackSection: React.FC<PropType> = (props) => {
         <div className="embla__container">
           {slides.map((index) => (
             <div
-              className="embla__slide flex items-center justify-center p-4 flex-none"
+              className="embla__slide embla__class-names"
               key={index}
               style={{ width: "100%" }}
             >
               <img
-                className="embla__slide__feedback max-w-full max-h-full object-contain"
+                className="embla__slide__feedback embla__class-names max-w-full max-h-full"
                 src={`feedbacks/feedback${index + 1}.png`}
                 alt={`Feedback ${index + 1}`}
               />
