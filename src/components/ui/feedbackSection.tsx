@@ -38,17 +38,13 @@ const FeedbackSection: React.FC<PropType> = (props) => {
   const { selectedSnap, snapCount } = useSelectedSnapDisplay(emblaApi);
 
   return (
-    <section className="embla">
-      <div className="embla__viewport" ref={emblaRef}>
+    <section className="embla__feedback">
+      <div className="embla__viewport max-w-80" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((index) => (
-            <div
-              className="embla__slide embla__class-names"
-              key={index}
-              style={{ width: "100%" }}
-            >
+            <div className="embla__slide" key={index} style={{ width: "100%" }}>
               <img
-                className="embla__slide__feedback embla__class-names max-w-full max-h-full"
+                className="embla__slide__feedback"
                 src={`feedbacks/feedback${index + 1}.png`}
                 alt={`Feedback ${index + 1}`}
               />

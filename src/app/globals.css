@@ -85,10 +85,11 @@
   max-width: 48rem;
   margin: auto;
   --slide-height: 19rem;
-  --slide-spacing: 1rem;
+  --slide-spacing: 10rem;
   --slide-size: 100%;
   overflow: hidden;
 }
+
 .embla__viewport {
   overflow: hidden;
   width: 100%;
@@ -111,9 +112,18 @@
   height: auto;
 }
 
+.embla__feedback {
+  max-width: 50rem;
+  --slide-height: 20rem;
+  --slide-spacing: 1rem;
+  --slide-size: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
 .embla__slide__feedback {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .embla__slide__number {
