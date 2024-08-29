@@ -82,7 +82,10 @@
 }
 
 .embla {
-  max-width: 48rem;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   --slide-height: 19rem;
   --slide-spacing: 10rem;
@@ -92,8 +95,9 @@
 
 .embla__viewport {
   overflow: hidden;
-  width: 100%;
+  width: 50%;
 }
+
 .embla__container {
   display: flex;
   flex-direction: row;
@@ -121,8 +125,14 @@
   margin: auto;
 }
 
+.embla__slider_feedback {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
 .embla__slide__feedback {
-  width: 100%;
+  width: 400px;
   height: 100%;
 }
 

@@ -13,10 +13,20 @@ export function FeedbackCarousel() {
       </h1>
 
       <div
-        className="embla mx-auto overflow-hidden max-w-10xl mt-12 mb-12 h-40 border"
+        className="embla mx-auto overflow-hidden mt-12 mb-12 h-40 border"
         ref={emblaRef}
       >
         <div className="embla__container flex h-full">
+          <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
+            <img src="santanderLogo1.png" alt="slide2" />
+          </div>
+
+          <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
+            <img src="sicoobLogo1.png" alt="slide3" />
+          </div>
+          <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
+            <img src="sicrediLogo.png" alt="slide4" />
+          </div>
           <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
             <img src="santanderLogo1.png" alt="slide2" />
           </div>

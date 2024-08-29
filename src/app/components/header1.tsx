@@ -1,3 +1,4 @@
+import ClassNames from "embla-carousel-class-names";
 import React from "react";
 
 interface HeaderProps {
@@ -27,6 +28,7 @@ const links = [
   {
     name: "Faça o seu orçamento",
     href: "https://api.whatsapp.com/send/?phone=5548996954614&text=Ol%C3%A1+gostaria+de+um+or%C3%A7amento&type=phone_number&app_absent=0",
+    class: "btn transition-all duration-300 hover:scale-110",
   },
 ];
 const stats = [

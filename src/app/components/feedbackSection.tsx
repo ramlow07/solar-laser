@@ -8,11 +8,11 @@ import {
   PrevButton,
   NextButton,
   usePrevNextButtons,
-} from "./EmblaCarouselArrowButtons";
+} from "../../components/ui/EmblaCarouselArrowButtons";
 import {
   SelectedSnapDisplay,
   useSelectedSnapDisplay,
-} from "./EmblaCarouselSelectedSnapDisplay";
+} from "../../components/ui/EmblaCarouselSelectedSnapDisplay";
 
 type PropType = {
   slides: number[];
@@ -39,17 +39,23 @@ const FeedbackSection: React.FC<PropType> = (props) => {
 
   return (
     <section className="embla__feedback">
-      <div className="embla__viewport max-w-80" ref={emblaRef}>
-        <div className="embla__container">
-          {slides.map((index) => (
-            <div className="embla__slide" key={index} style={{ width: "100%" }}>
-              <img
-                className="embla__slide__feedback"
-                src={`feedbacks/feedback${index + 1}.png`}
-                alt={`Feedback ${index + 1}`}
-              />
-            </div>
-          ))}
+      <div className="embla__slider_feedback">
+        <div className="embla__viewport" ref={emblaRef}>
+          <div className="embla__container">
+            {slides.map((index) => (
+              <div
+                className="embla__slide"
+                key={index}
+                style={{ width: "100%" }}
+              >
+                <img
+                  className="embla__slide__feedback"
+                  src={`feedbacks/feedback${index + 1}.png`}
+                  alt={`Feedback ${index + 1}`}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 

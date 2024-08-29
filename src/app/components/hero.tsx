@@ -29,9 +29,11 @@ const features = [
 export default function Hero() {
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-32">
-      <div className="text-2xl mx-auto my-5 mx space-x-7 max-w-2xl px-20 lg:px-50 font-extrabold text-orange-500 justify-between border rounded-full border-orange-500 bg-orange-100">
+      <div className="text-2xl mx-auto my-5 space-x-7 max-w-2xl px-20 lg:px-50 justify-between">
         <a href="https://api.whatsapp.com/send/?phone=5548996954614&text=Ol%C3%A1+gostaria+de+um+or%C3%A7amento&type=phone_number&app_absent=0">
-          <button>Clique aqui e solicite um orçamento grátis.</button>
+          <button className="px-8 py-4 bg-gradient-to-r from-orange-600 to-blue-600 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">
+            Clique aqui e solicite um orçamento grátis.
+          </button>
         </a>
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
