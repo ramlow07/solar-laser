@@ -8,16 +8,16 @@ export function FeedbackCarousel() {
 
   return (
     <div className="">
-      <h1 className="font-sans flex items-center justify-center mb-4 text-xl font-normal bg-white leading-none tracking-tight text-gray-900 md:text-3xl lg:text-3xl dark:text-white">
+      <h1 className="font-sans flex items-center justify-center mb-4 text-xl font-extralight text-stone-100 leading-none tracking-tight text-gray-900 md:text-3xl lg:text-3xl dark:text-white">
         E trabalhamos também com as maiores financeiras do Brasil.
       </h1>
 
       <div
-        className="embla mx-auto overflow-hidden mt-12 mb-12 h-40 border"
+        className="embla mx-auto overflow-hidden mt-12 mb-12 h-40 border-none"
         ref={emblaRef}
       >
         <div className="embla__container flex h-full">
-          <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
+          <div className="embla__slide min-w-0 flex w-full items-center justify-center border-none">
             <img src="santanderLogo1.png" alt="slide2" />
           </div>
 
@@ -25,7 +25,7 @@ export function FeedbackCarousel() {
             <img src="sicoobLogo1.png" alt="slide3" />
           </div>
           <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
-            <img src="sicrediLogo.png" alt="slide4" />
+            <img src="sicrediLogo2.png" alt="slide4" />
           </div>
           <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
             <img src="santanderLogo1.png" alt="slide2" />
@@ -34,7 +34,7 @@ export function FeedbackCarousel() {
             <img src="sicoobLogo1.png" alt="slide3" />
           </div>
           <div className="embla__slide min-w-0 flex w-full items-center justify-center ">
-            <img src="sicrediLogo.png" alt="slide4" />
+            <img src="sicrediLogo2.png" alt="slide4" />
           </div>
         </div>
       </div>

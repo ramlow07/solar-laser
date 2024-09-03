@@ -38,39 +38,47 @@ const FeedbackSection: React.FC<PropType> = (props) => {
   const { selectedSnap, snapCount } = useSelectedSnapDisplay(emblaApi);
 
   return (
-    <section className="embla__feedback">
-      <div className="embla__slider_feedback">
-        <div className="embla__viewport" ref={emblaRef}>
-          <div className="embla__container">
-            {slides.map((index) => (
-              <div
-                className="embla__slide"
-                key={index}
-                style={{ width: "100%" }}
-              >
-                <img
-                  className="embla__slide__feedback"
-                  src={`feedbacks/feedback${index + 1}.png`}
-                  alt={`Feedback ${index + 1}`}
-                />
-              </div>
-            ))}
+    <div className="feedbackBg bg-gradient-to-r from-blue-800 to-blue-400">
+      <section className="embla__feedback">
+        <div className="embla__slider_feedback">
+          <div className="embla__viewport mt-5" ref={emblaRef}>
+            <div className="embla__container">
+              {slides.map((index) => (
+                <div
+                  className="embla__slide"
+                  key={index}
+                  style={{ width: "100%" }}
+                >
+                  <img
+                    className="embla__slide__feedback"
+                    src={`feedbacks/feedback${index + 1}.png`}
+                    alt={`Feedback ${index + 1}`}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="embla__controls">
-        <div className="embla__buttons">
-          <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-          <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
+        <div className="embla__controls">
+          <div className="embla__buttons">
+            <PrevButton
+              onClick={onPrevButtonClick}
+              disabled={prevBtnDisabled}
+            />
+            <NextButton
+              onClick={onNextButtonClick}
+              disabled={nextBtnDisabled}
+            />
+          </div>
+
+          <SelectedSnapDisplay
+            selectedSnap={selectedSnap}
+            snapCount={snapCount}
+          />
         </div>
-
-        <SelectedSnapDisplay
-          selectedSnap={selectedSnap}
-          snapCount={snapCount}
-        />
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 

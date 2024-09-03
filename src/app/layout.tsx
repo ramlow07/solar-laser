@@ -30,8 +30,10 @@ export default function RootLayout({
   // add to the bg: bg-gradient-to-r from-orange-500 to-blue-200
 
   return (
-    <html lang="pt-br">
-      <body className={`${inter.className} `}>
+    <html lang="pt-br ">
+      <body
+        className={`${inter.className} bg-gradient-to-r from-orange-700 to-orange-400 `}
+      >
         <Header></Header>
         <VideoSection></VideoSection>
         <Hero></Hero>

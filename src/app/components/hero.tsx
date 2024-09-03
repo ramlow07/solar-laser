@@ -5,6 +5,7 @@ import {
   ShieldCheckIcon,
   PhoneArrowUpRightIcon,
 } from "@heroicons/react/20/solid";
+import { text } from "stream/consumers";
 
 const features = [
   {
@@ -28,11 +29,11 @@ const features = [
 
 export default function Hero() {
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    <div className="overflow-hidden py-24 sm:py-32 bg-gradient-to-r from-blue-800 to-blue-400">
       <div className="text-2xl mx-auto my-5 space-x-7 max-w-2xl px-20 lg:px-50 justify-between">
         <a href="https://api.whatsapp.com/send/?phone=5548996954614&text=Ol%C3%A1+gostaria+de+um+or%C3%A7amento&type=phone_number&app_absent=0">
-          <button className="px-8 py-4 bg-gradient-to-r from-orange-600 to-blue-600 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">
-            Clique aqui e solicite um orçamento grátis.
+          <button className="px-8 py-4 bg-gradient-to-r from-orange-600 to-orange-400 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">
+            CLIQUE AQUI E FALE COM UM ESPECIALISTA.
           </button>
         </a>
       </div>
@@ -40,14 +41,14 @@ export default function Hero() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-orange-300 ">
+              <h2 className="text-base font-semibold leading-7 text-orange-500 ">
                 Credenciados pelas maiores marcas fabricantes e com garantia
                 estendida.
               </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
                 Excelência em Qualidade desde 2017.
               </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-lg leading-8 text-white">
                 Com mais de 6 anos de expertise no setor de energia solar, a
                 SolarLaser destaca-se como referência incontestável na entrega
                 de produtos e serviços de alta qualidade. A equipe da
@@ -58,10 +59,10 @@ export default function Hero() {
                 SolarLaser asseguram uma experiência completa e satisfatória
                 para seus clientes.
               </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-white lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
+                    <dt className="inline font-bold text-orange-500">
                       <feature.icon
                         className="absolute left-1 top-1 h-5 w-5 text-orange-300"
                         aria-hidden="true"
