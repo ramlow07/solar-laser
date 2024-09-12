@@ -8,12 +8,12 @@ export function Carousel() {
 
   return (
     <div className="">
-      <h1 className="md:text-3xl sm:text-3xl text-3xl mb-5 mt-3 mx-96 font-sans flex items-center justify-center tracking-tight font-normal text-stone-100 sm:text-xl">
+      <h1 className="text-center md:text-3xl sm:text-3xl text-3xl mb-5 mt-3 mx-96 font-sans flex items-center justify-center tracking-tight font-normal text-stone-100  sm:mx-auto ml-3 mr-3 ">
         Trabalhamos com as maiores referências de produtos em energia solar do
         Brasil.
       </h1>
 
-      <p className=" text-2xl mb-5 mt-3 mx-96 font-sans flex items-center justify-center tracking-tight text-wrap font-extralight text-stone-100">
+      <p className=" text-2xl mb-5 mt-3 mx-96 font-sans flex items-center justify-center tracking-tight text-wrap font-extralight text-stone-100 mx-auto ml-3 mr-3 text-center">
         Seu negócio é o nosso compromisso. Para podermos melhor atender às
         necessidades de sua propriedade ou empresa, a qualidade precisa ser
         garantida desde os primeiros passos. E por isso, trabalhamos com as

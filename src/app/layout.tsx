@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const OPTIONS: EmblaOptionsType = {};
-  const SLIDE_COUNT = 6;
+  const SLIDE_COUNT = 5;
   const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
   // add to the bg: bg-gradient-to-r from-orange-500 to-blue-200
@@ -39,7 +39,6 @@ export default function RootLayout({
         <Hero></Hero>
         <VideoSection></VideoSection>
         <FeedbackSection slides={SLIDES} options={OPTIONS}></FeedbackSection>
-
         <Carousel></Carousel>
         <FloatingWhatsapp></FloatingWhatsapp>
         <FeedbackCarousel></FeedbackCarousel>

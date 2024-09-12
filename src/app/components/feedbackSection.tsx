@@ -25,7 +25,7 @@ const FeedbackSection: React.FC<PropType> = (props) => {
   // Initialize EmblaCarousel with autoplay plugin
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [
     ClassNames(),
-    Autoplay({ delay: 2000 }), // Auto slide every 3 seconds
+    Autoplay({ delay: 3000 }), // Auto slide every 3 seconds
   ]);
 
   const {
@@ -40,8 +40,13 @@ const FeedbackSection: React.FC<PropType> = (props) => {
   return (
     <div className="feedbackBg bg-gradient-to-r from-blue-800 to-blue-400">
       <section className="embla__feedback">
+        <div className="flex justify-center mt-10">
+          <h1 className="text-center md:text-2xl sm:text-2xl text-2xl mb-5 mt-3 mx-96 font-sans flex items-center justify-center tracking-wide font-light text-stone-200 sm:mx-auto ml-3 mr-3 ">
+            Veja o que nossos clientes falam sobre a Solar Laser
+          </h1>
+        </div>
         <div className="embla__slider_feedback">
-          <div className="embla__viewport mt-5" ref={emblaRef}>
+          <div className="embla__viewport mt-10 mb-10" ref={emblaRef}>
             <div className="embla__container">
               {slides.map((index) => (
                 <div
@@ -58,24 +63,6 @@ const FeedbackSection: React.FC<PropType> = (props) => {
               ))}
             </div>
           </div>
-        </div>
-
-        <div className="embla__controls">
-          <div className="embla__buttons">
-            <PrevButton
-              onClick={onPrevButtonClick}
-              disabled={prevBtnDisabled}
-            />
-            <NextButton
-              onClick={onNextButtonClick}
-              disabled={nextBtnDisabled}
-            />
-          </div>
-
-          <SelectedSnapDisplay
-            selectedSnap={selectedSnap}
-            snapCount={snapCount}
-          />
         </div>
       </section>
     </div>

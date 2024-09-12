@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="bg-orange-500">
+    <div className="bg-gradient-to-r from-blue-800 to-blue-400">
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid row-gap-10 mb-8 lg:grid-cols-2">
           <div className="align-middle grid grid-cols-2 gap-2 row-gap-8 lg:col-span-2 md:grid-cols-2">
@@ -39,13 +39,13 @@ export const Footer = () => {
                 </button>
               </a>
             </form>
-            <p className="mt-4 text-sm text-blue-800">
+            <p className="mt-4 text-sm text-white">
               Clique no botão acima para realizar um orçamento.
             </p>
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
-          <p className="text-sm text-blue-800">
+          <p className="text-sm text-white">
             © Copyright 2024 Solar Laser. Todos os direitos reservados.
           </p>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">

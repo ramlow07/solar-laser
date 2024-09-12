@@ -8,8 +8,8 @@ export function FeedbackCarousel() {
 
   return (
     <div className="">
-      <h1 className="font-sans flex items-center justify-center mb-4 text-xl font-extralight text-stone-100 leading-none tracking-tight text-gray-900 md:text-3xl lg:text-3xl dark:text-white">
-        E trabalhamos também com as maiores financeiras do Brasil.
+      <h1 className=" text-center mr-2 ml-2 font-sans flex items-center justify-center mb-4 text-xl font-light text-stone-100 leading-none tracking-wide text-gray-900 sm:text-xl md:text-3xl lg:text-3xl dark:text-white">
+        E trabalhamos também com as maiores financeiras do Brasil
       </h1>
 
       <div
