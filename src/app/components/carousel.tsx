@@ -15,7 +15,7 @@ export function Carousel() {
 
       <p className=" text-2xl mb-5 mt-3 mx-96 font-sans flex items-center justify-center tracking-tight text-wrap font-extralight text-stone-100 mx-auto ml-3 mr-3 text-center">
         Seu negócio é o nosso compromisso. Para podermos melhor atender às
-        necessidades de sua propriedade ou empresa, a qualidade precisa ser
+        necessidades de sua residência ou empresa, a qualidade precisa ser
         garantida desde os primeiros passos. E por isso, trabalhamos com as
         melhores marcas do Brasil, das quais somos também credenciados.
       </p>
@@ -26,7 +26,7 @@ export function Carousel() {
       >
         <div className="embla__container flex h-full ">
           <div className="embla__slide min-w-0 flex w-full items-center justify-center  ">
-            <img src="wegLogo.png" alt="Image 1" />
+            <img src="wegLogo01.png" alt="Image 1" />
           </div>
           <div className="embla__slide min-w-0 flex h-full items-center justify-center ">
             <img src="intelbrasLogo1.png" alt="slide2" />
@@ -35,7 +35,7 @@ export function Carousel() {
             <img src="komecoLogo2.png" alt="slide3" />
           </div>
           <div className="embla__slide min-w-0 flex w-full items-center justify-center  ">
-            <img src="wegLogo.png" alt="Image 1" />
+            <img src="wegLogo01.png" alt="Image 1" />
           </div>
           <div className="embla__slide min-w-0 flex h-full items-center justify-center ">
             <img src="intelbrasLogo1.png" alt="slide2" />

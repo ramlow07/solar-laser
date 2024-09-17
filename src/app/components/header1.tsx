@@ -32,8 +32,8 @@ const links = [
   },
 ];
 const stats = [
-  { name: "De economia na sua conta de luz", value: "Até 95%" },
-  { name: "Obras concluídas", value: "300+" },
+  { name: "De economia na sua conta de luz", value: "Até 90%" },
+  { name: "Obras concluídas", value: "400+" },
   { name: "Anos de garantia", value: "25" },
   { name: "O seu investimento retorna", value: "Entre 3 a 5 anos" },
   { name: "de valorização no seu imóvel", value: "Até 30%" },
@@ -74,12 +74,12 @@ export function Header(props: HeaderProps) {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
-            Deixe o sol pagar a sua fatura
+            Deixe o sol pagar a sua conta de energia.
           </h2>
           <p className="mt-6 text-lg leading-8 font-semibold text-gray-100">
-            Uma empresa com mais de 6 anos de mercado. Oferecemos 25 anos de
-            garantia na sua obra, e parcelamento facilitado através de cartão de
-            crédito ou financiamento.
+            A empresa de energia solar mais bem avaliada da região de Grande
+            Florianópolis. Um investimento que valoriza até 30% do seu imóvel,
+            com pagamento facilitado e garantia de 25 anos.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

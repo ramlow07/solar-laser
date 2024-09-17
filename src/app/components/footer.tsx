@@ -8,7 +8,7 @@ export const Footer = () => {
           <div className="align-middle grid grid-cols-2 gap-2 row-gap-8 lg:col-span-2 md:grid-cols-2">
             <div>
               <p className=" font-extrabold tracking-wide text-gray-100">
-                FILIAL
+                MATRIZ
               </p>
               <div className="aboutSection text-white">
                 Pedra Branca - Palhoça - SC 88137-110, BR
@@ -20,9 +20,12 @@ export const Footer = () => {
 
             <div className="">
               <p className=" font-extrabold tracking-wide text-gray-100">
-                MATRIZ
+                FILIAL
               </p>
-              <div className="aboutSection text-white">FLORIANÓPOLIS</div>
+              <div className="aboutSection text-white">
+                Rua José Corrêa, 181 - CEP 88049-400 - Florianópolis - SC,
+                88137-110
+              </div>
               <div className="contatos text-white">
                 (48) 99695-4614 site.solarlaser@gmail.com
               </div>
@@ -33,7 +36,7 @@ export const Footer = () => {
               <a href="https://api.whatsapp.com/send/?phone=5548996954614&text=Ol%C3%A1+gostaria+de+um+or%C3%A7amento&type=phone_number&app_absent=0">
                 <button
                   type="button"
-                  class="text-white bg-blue-800 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                  class="text-white bg-orange-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                 >
                   Realize aqui seu orçamento.
                 </button>

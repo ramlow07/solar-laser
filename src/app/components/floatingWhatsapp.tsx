@@ -1,5 +1,3 @@
-import whatsapp from "..public/whatsapp.png";
-
 // TODO: FIGURE THE SCROLL OUT AND KNOW HOW TO SCROLL AND KEEP THE BUTTON IN THE SAME POSITION
 
 export const FloatingWhatsapp = () => {

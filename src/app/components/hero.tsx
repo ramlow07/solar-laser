@@ -11,7 +11,7 @@ const features = [
   {
     name: "Ganhar dinheiro economizando dinheiro...",
     description:
-      "Parece mentira, né? Mas além de economizar até 30% na sua conta de luz, a instalação da energia solar dá ao seu imóvel uma valorização de até 20%.",
+      "Parece mentira, né? Mas além de economizar até 90% na sua conta de luz, a instalação da energia solar dá ao seu imóvel uma valorização de até 30%.",
     icon: CurrencyDollarIcon,
   },
   {
@@ -22,7 +22,8 @@ const features = [
   },
   {
     name: "Garantia de 25 anos.",
-    description: "Nada mais nada menos do que duas décadas e meia de garantia.",
+    description:
+      "Nada mais nada menos do que duas décadas e meia de garantia de eficiência.",
     icon: ShieldCheckIcon,
   },
 ];
@@ -41,7 +42,7 @@ export default function Hero() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-orange-500 ">
+              <h2 className="text-base font-bold leading-7 text-orange-500 ">
                 Credenciados pelas maiores marcas fabricantes e com garantia
                 estendida.
               </h2>
@@ -50,13 +51,13 @@ export default function Hero() {
               </p>
               <p className="mt-6 text-lg leading-8 text-white">
                 Com mais de 6 anos de expertise no setor de energia solar, a
-                SolarLaser destaca-se como referência incontestável na entrega
-                de produtos e serviços de alta qualidade. A equipe da
-                SolarLaser, altamente qualificada e capacitada, não apenas atua
-                de maneira proficiente, mas também proporciona um atendimento
+                Energia Solar Laser destaca-se como referência incontestável em
+                produtos de energia fotovoltaica. A equipe da Energia Solar
+                Laser, altamente qualificada e capacitada, não apenas atua de
+                maneira proficiente, mas também proporciona um atendimento
                 primoroso desde o primeiro contato. Comprometidos em oferecer
-                suporte e assistência inigualáveis, os profissionais da
-                SolarLaser asseguram uma experiência completa e satisfatória
+                suporte e assistência inigualáveis, os profissionais da Energia
+                Solar Laser asseguram uma experiência completa e satisfatória
                 para seus clientes.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-white lg:max-w-none">
